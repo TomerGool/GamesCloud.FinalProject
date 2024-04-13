@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/logout_action"
+        android:title="@string/logout"
+        app:showAsAction="never"
+        >
+    </item>
+    <item
+        android:id="@+id/favorites_action"
+        android:title="@string/favorites"
+        app:showAsAction="never"
+        >
+    </item>
+    <item
+        android:id="@+id/requests_action"
+        android:title="@string/requests"
+        app:showAsAction="never">
+
+    </item>
+    <item
+        android:id="@+id/friends_action"
+        android:title="@string/friends"
+        app:showAsAction="never"
+        ></item>
+    <item
+        android:id="@+id/search_users"
+        android:title="@string/search_users"
+        app:showAsAction="never"
+        >
+    </item>
+    <item
+        android:id="@+id/other_action"
+        android:title="@string/other"
+        app:showAsAction="never"
+        >
+    </item>
+
+</menu>
